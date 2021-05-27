@@ -20,9 +20,7 @@ p using_pop (continents)
 
   
 def pop_with_args (array)
-  a = array.pop 
-  b = array.pop
-  [b, a]
+  array.pop (2)
 end
 dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
 p pop_with_args (dog_breeds)
